@@ -1,1 +1,3 @@
-<a href="/cake/projects/index">Projects</a>
+<?php
+echo '<a href="/cake/projects/index">Projects</a>';
+<?>
