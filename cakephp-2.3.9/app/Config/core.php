@@ -247,7 +247,7 @@
  * Default settings provided below
  *
  * File storage engine.
- */
+ *
   	 Cache::config('default', array(
  		'engine' => 'File', //[required]
  		'duration' => 3600, //[optional]
@@ -257,7 +257,7 @@
   		'lock' => false, //[optional]  use file locking
   		'serialize' => true, [optional]
  	));
- /*
+ *
  * APC (http://pecl.php.net/package/APC)
  *
  * 	 Cache::config('default', array(
